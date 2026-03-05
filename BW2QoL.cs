@@ -11,8 +11,10 @@ public class BW2QoL : MelonMod
 {
     public override void OnSceneWasLoaded(int buildIndex, string sceneName)
     {
-        LoggerInstance.Msg($"Scene {sceneName} with build index {buildIndex} has been loaded!");
-        LoggerInstance.Msg($"Script status: {Execute("print('In Lua!')")}");
+        if (sceneName == "matchscene")
+        {
+            LoggerInstance.Msg($"Script status: {Execute("print('In Match!')")}");
+        }
     }
     private int Execute(string source) 
     {
