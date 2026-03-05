@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\net6\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.Bundles">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.Bundles.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.Core">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.CoroutineExtensions">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.CoroutineExtensions.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.DependencyInterfaces">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.DependencyInterfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.DevConsole">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.DevConsole.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.DynamicVariables">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.DynamicVariables.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.GameConfig">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.GameConfig.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.LuauCore">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.LuauCore.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.PoolManager">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.PoolManager.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.TextureLoader">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.TextureLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.Util">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.Util.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAirship.VoxelWorld">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppAirship.VoxelWorld.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppEasy.Airship">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppEasy.Airship.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Runtime">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppLuauAPI">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2CppLuauAPI.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2Cppmscorlib">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\net6\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\..\..\opt\steamlibrary\steamapps\common\Airship\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
